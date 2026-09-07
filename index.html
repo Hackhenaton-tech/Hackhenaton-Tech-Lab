@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hackhenaton Tech Lab - Agence technologique premium ivoirienne. Sites web, applications mobiles, cybersécurité, OSINT et audit de sites web.">
+  <title>Hackhenaton Tech Lab | Votre idée. Notre expertise.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+<body>
+  <!-- Particles Background -->
+  <div id="particles-bg"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <a href="#accueil" class="logo">
+        <img src="assets/images/logo.png" alt="Hackhenaton Tech Lab" class="logo-img">
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#accueil" class="nav-link active">Accueil</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#solutions" class="nav-link">Solutions</a>
+        <a href="#apropos" class="nav-link">À propos</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="https://wa.me/2250502976124?text=Bonjour%20Hackhenaton%20Tech%20Lab%2C%20je%20souhaite%20d%C3%A9marrer%20un%20projet.%20Pouvez-vous%20me%20contacter%20%3F" class="btn btn-primary nav-cta" target="_blank" rel="noopener">Démarrer un projet</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="accueil">
+    <div class="hero-bg">
+      <div class="circuit-lines"></div>
+      <div class="glow-orb glow-orb-1"></div>
+      <div class="glow-orb glow-orb-2"></div>
+    </div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <p class="hero-label">HACKHENATON TECH LAB</p>
+        <h1 class="hero-title">
+          Votre idée.<br>
+          <span class="gradient-text">Notre expertise.</span><br>
+          Des solutions qui font la différence.
+        </h1>
+        <p class="hero-desc">
+          Nous transformons vos idées en solutions numériques modernes, performantes et adaptées à vos besoins.
+        </p>
+        <div class="hero-btns">
+          <a href="https://wa.me/2250502976124?text=Bonjour%20Hackhenaton%20Tech%20Lab%2C%20je%20souhaite%20d%C3%A9marrer%20un%20projet.%20Pouvez-vous%20me%20contacter%20%3F" class="btn btn-primary" target="_blank" rel="noopener">Démarrer un projet</a>
+          <a href="#services" class="btn btn-secondary">Découvrir nos services</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="device-mockup laptop float-anim">
+          <div class="laptop-screen">
+            <div class="screen-content">
+              <div class="fake-nav"></div>
+              <div class="fake-hero"></div>
+              <div class="fake-cards">
+                <div class="fake-card"></div>
+                <div class="fake-card"></div>
+                <div class="fake-card"></div>
+              </div>
+            </div>
+          </div>
+          <div class="laptop-base"></div>
+        </div>
+        <div class="device-mockup phone float-anim-delayed">
+          <div class="phone-screen">
+            <div class="phone-content">
+              <div class="app-header"></div>
+              <div class="app-body">
+                <div class="app-card"></div>
+                <div class="app-card"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="code-snippet float-anim">
+          <pre><code>&lt;span class="code-purple"&gt;const&lt;/span&gt; future = <span class="code-cyan">await</span> build();</code></pre>
+        </div>
+        <div class="circuit-element ce-1"></div>
+        <div class="circuit-element ce-2"></div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse"></div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Nos solutions technologiques</h2>
+        <p class="section-subtitle">Des technologies pensées pour transformer vos idées en projets concrets.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <h3>Sites Web</h3>
+          <p>Des sites modernes, rapides et optimisés pour présenter votre activité et convertir vos visiteurs.</p>
+          <div class="card-glow"></div>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-delay="100">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="5" y="2" width="14" height="20" rx="2"/>
+              <path d="M12 18h.01"/>
+            </svg>
+          </div>
+          <h3>Applications Mobiles</h3>
+          <p>Des applications Android et iOS conçues sur mesure pour vos utilisateurs.</p>
+          <div class="card-glow"></div>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-delay="200">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="M9 12l2 2 4-4"/>
+            </svg>
+          </div>
+          <h3>Cybersécurité</h3>
+          <p>Protégez vos données, vos systèmes et votre activité grâce à des solutions de sécurité adaptées.</p>
+          <div class="card-glow"></div>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-delay="300">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="M21 21l-4.35-4.35"/>
+              <path d="M11 8v6M8 11h6"/>
+            </svg>
+          </div>
+          <h3>OSINT</h3>
+          <p>Investigation open-source : recherche d’informations publiques, veille stratégique et renseignement numérique.</p>
+          <div class="card-glow"></div>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-delay="400">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M9 11l3 3L22 4"/>
+              <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+            </svg>
+          </div>
+          <h3>Audit de sites Web</h3>
+          <p>Analyse complète de performance, sécurité, SEO et UX pour optimiser votre présence en ligne.</p>
+          <div class="card-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Web n'est pas un luxe -->
+  <section class="not-luxury" id="solutions">
+    <div class="container not-luxury-container">
+      <div class="not-luxury-content">
+        <h2 class="big-title">
+          Un <span class="gradient-text">SITE WEB</span>,<br>
+          ce n'est pas un <span class="gradient-text">LUXE</span>.
+        </h2>
+        <p class="not-luxury-tagline">C'est votre vitrine digitale.</p>
+        <p class="not-luxury-text">
+          Votre présence en ligne est souvent le premier contact entre votre entreprise et vos futurs clients.
+        </p>
+        <a href="https://wa.me/2250502976124?text=Bonjour%20Hackhenaton%20Tech%20Lab%2C%20je%20souhaite%20cr%C3%A9er%20un%20site%20web.%20Pouvez-vous%20me%20contacter%20%3F" class="btn btn-primary" target="_blank" rel="noopener">Créer mon site web →</a>
+      </div>
+      <div class="not-luxury-visual">
+        <div class="laptop-showcase">
+          <div class="ls-screen">
+            <div class="ls-content">
+              <div class="ls-header">
+                <div class="ls-dots"><span></span><span></span><span></span></div>
+                <div class="ls-url">hackhenaton.ci</div>
+              </div>
+              <div class="ls-body">
+                <div class="ls-hero-block"></div>
+                <div class="ls-grid">
+                  <div class="ls-item"></div>
+                  <div class="ls-item"></div>
+                  <div class="ls-item"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ls-base"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitrine Digitale -->
+  <section class="vitrine">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">C'est votre <span class="gradient-text">VITRINE DIGITALE</span>.</h2>
+        <p class="section-subtitle">Transformez votre présence en ligne en véritable opportunité.</p>
+      </div>
+      <div class="devices-showcase">
+        <div class="device desktop">
+          <div class="device-frame">
+            <div class="device-screen">
+              <div class="mock-ui">
+                <div class="mock-sidebar"></div>
+                <div class="mock-main">
+                  <div class="mock-topbar"></div>
+                  <div class="mock-content-grid">
+                    <div class="mock-block"></div>
+                    <div class="mock-block"></div>
+                    <div class="mock-block wide"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="device laptop-sm">
+          <div class="device-frame">
+            <div class="device-screen">
+              <div class="mock-ui compact">
+                <div class="mock-nav"></div>
+                <div class="mock-hero-sm"></div>
+                <div class="mock-cards-sm">
+                  <div class="mock-card-sm"></div>
+                  <div class="mock-card-sm"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="laptop-bottom"></div>
+        </div>
+        <div class="device phone-sm">
+          <div class="device-frame phone-frame">
+            <div class="device-screen">
+              <div class="mock-app">
+                <div class="app-status"></div>
+                <div class="app-title-bar"></div>
+                <div class="app-list">
+                  <div class="app-item"></div>
+                  <div class="app-item"></div>
+                  <div class="app-item"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="vitrine-cta">
+        <a href="#services" class="btn btn-primary">Découvrir nos services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technologies -->
+  <section class="technologies">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Technologies que nous maîtrisons</h2>
+      </div>
+      <div class="tech-marquee">
+        <div class="tech-track">
+          <div class="tech-badge">HTML5</div>
+          <div class="tech-badge">CSS3</div>
+          <div class="tech-badge">JavaScript</div>
+          <div class="tech-badge">React</div>
+          <div class="tech-badge">Node.js</div>
+          <div class="tech-badge">Python</div>
+          <div class="tech-badge">PHP</div>
+          <div class="tech-badge">Firebase</div>
+          <div class="tech-badge">MySQL</div>
+          <div class="tech-badge">Git</div>
+          <div class="tech-badge">GitHub</div>
+          <div class="tech-badge">OSINT</div>
+          <!-- Duplicate for seamless loop -->
+          <div class="tech-badge">HTML5</div>
+          <div class="tech-badge">CSS3</div>
+          <div class="tech-badge">JavaScript</div>
+          <div class="tech-badge">React</div>
+          <div class="tech-badge">Node.js</div>
+          <div class="tech-badge">Python</div>
+          <div class="tech-badge">PHP</div>
+          <div class="tech-badge">Firebase</div>
+          <div class="tech-badge">MySQL</div>
+          <div class="tech-badge">Git</div>
+          <div class="tech-badge">GitHub</div>
+          <div class="tech-badge">OSINT</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pourquoi nous -->
+  <section class="why-us" id="apropos">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Pourquoi Hackhenaton Tech Lab ?</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-number">01</div>
+          <h3>Conçu pour vous</h3>
+          <p>Solutions adaptées à vos besoins réels.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number">02</div>
+          <h3>Technologie moderne</h3>
+          <p>Des technologies actuelles et performantes.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number">03</div>
+          <h3>Sécurisé et fiable</h3>
+          <p>Des solutions pensées avec la sécurité en priorité.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number">04</div>
+          <h3>Accompagnement</h3>
+          <p>Un accompagnement de l'idée jusqu'à la mise en ligne.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Processus -->
+  <section class="process">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">De l'idée au produit</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">01</div>
+          <div class="timeline-content">
+            <h3>Idée</h3>
+            <p>Nous écoutons votre vision.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">02</div>
+          <div class="timeline-content">
+            <h3>Conception</h3>
+            <p>Nous transformons votre idée en expérience.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">03</div>
+          <div class="timeline-content">
+            <h3>Développement</h3>
+            <p>Nous construisons votre solution.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">04</div>
+          <div class="timeline-content">
+            <h3>Lancement</h3>
+            <p>Votre produit est prêt à conquérir son marché.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Nos réalisations</h2>
+        <p class="section-subtitle">Quelques exemples de projets que nous pouvons réaliser pour vous.</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/images/ecommerce.jpg" alt="Site E-commerce" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3>Site E-commerce</h3>
+            <p>Plateforme de vente en ligne moderne et performante.</p>
+            <div class="project-techs">
+              <span>React</span><span>Node.js</span><span>MySQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/images/application-android.jpg" alt="Application Mobile" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3>Application Mobile</h3>
+            <p>App native Android & iOS pour votre activité.</p>
+            <div class="project-techs">
+              <span>React Native</span><span>Firebase</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/images/dashboard.jpg" alt="Tableau de bord" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3>Tableau de bord</h3>
+            <p>Dashboard professionnel avec analytics en temps réel.</p>
+            <div class="project-techs">
+              <span>React</span><span>Python</span><span>API</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/images/site-vitrine.jpg" alt="Site Vitrine" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3>Site Vitrine</h3>
+            <p>Présence digitale élégante et convertissante.</p>
+            <div class="project-techs">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/images/systeme-gestion.jpg" alt="Système de gestion" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3>Système de gestion</h3>
+            <p>Outil métier sur mesure pour votre organisation.</p>
+            <div class="project-techs">
+              <span>PHP</span><span>MySQL</span><span>JS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/images/audit-web.jpg" alt="Audit de site Web" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3>Audit de site Web</h3>
+            <p>Analyse sécurité, performance et SEO complète.</p>
+            <div class="project-techs">
+              <span>Sécurité</span><span>SEO</span><span>UX</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-glow"></div>
+    <div class="container">
+      <h2 class="cta-title">Vous avez une idée ?<br>Construisons-la ensemble.</h2>
+      <p class="cta-text">Votre prochaine solution digitale commence par une conversation.</p>
+      <a href="https://wa.me/2250502976124?text=Bonjour%20Hackhenaton%20Tech%20Lab%2C%20je%20souhaite%20d%C3%A9marrer%20un%20projet.%20Pouvez-vous%20me%20contacter%20%3F" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Démarrer mon projet →</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Parlons de votre projet</h2>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Téléphone</h4>
+              <a href="tel:+2250502976124">+225 05 02 97 61 24</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <path d="M22 6l-10 7L2 6"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:hackhenatontech@gmail.com">hackhenatontech@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Localisation</h4>
+              <p>Abidjan, Côte d'Ivoire</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nom</label>
+              <input type="text" id="name" name="name" required placeholder="Votre nom">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="votre@email.com">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Téléphone</label>
+              <input type="tel" id="phone" name="phone" placeholder="+225 ...">
+            </div>
+            <div class="form-group">
+              <label for="project-type">Type de projet</label>
+              <select id="project-type" name="project-type" required>
+                <option value="">Sélectionnez</option>
+                <option value="site-web">Site Web</option>
+                <option value="application-mobile">Application Mobile</option>
+                <option value="cybersecurite">Cybersécurité</option>
+                <option value="osint">OSINT</option>
+                <option value="audit">Audit de sites Web</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre projet..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Envoyer ma demande</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/images/logo.png" alt="Hackhenaton Tech Lab" class="footer-logo">
+          <p class="footer-slogan">Votre idée. Notre expertise.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Sites web</a></li>
+              <li><a href="#services">Applications mobiles</a></li>
+              <li><a href="#services">Cybersécurité</a></li>
+              <li><a href="#services">OSINT</a></li>
+              <li><a href="#services">Audit de sites Web</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="#accueil">Accueil</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#apropos">À propos</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Réseaux</h4>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Twitter">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Hackhenaton Tech Lab. Tous droits réservés.</p>
+        <p class="footer-tagline">INNOVER • DÉVELOPPER • IMPACTER</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
